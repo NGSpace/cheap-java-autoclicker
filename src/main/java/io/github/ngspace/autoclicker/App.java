@@ -21,7 +21,8 @@ import lc.kra.system.keyboard.event.GlobalKeyAdapter;
 import lc.kra.system.keyboard.event.GlobalKeyEvent;
 
 /**
- * Hello world!
+ * JPackage command for windows:
+ * jpackage --vendor ngspace --app-version "1.0" --copyright ngspace --description "Cheap Java Autoclicker" --name "CheapJavaAutoclicker" --type msi -i autoclicker --main-jar autoclicker.jar --win-dir-chooser --win-menu --win-shortcut-prompt
  */
 public class App {
 	public static Robot robot;
